@@ -1,0 +1,75 @@
+/* Sign-Up Form */
+body {
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  height: 100vh; /* Ensure the body takes the full height of the viewport */
+  background-image: url('/img/humphrey-muleba-dDp-6pXrYik-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: #333333;
+  margin: 0;
+}
+
+.signup-form {
+  background-color: #f4e6cc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  max-width: 400px; /* Set a maximum width for the form */
+  font-weight: bold;
+  text-align: center; /* Center the content within the form */
+  margin: auto; /* Center the form itself within its container */
+}
+
+.signup-form h1 {
+  color: #ff420e;
+  text-align: center;
+  font-family: 'Bakbak One', sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Stack the form elements vertically */
+  align-items: center; /* Center align the form elements */
+  margin-top: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333333;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="submit"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: left; /* Align text to the left for these input elements */
+  font-family: 'Lato', sans-serif;
+}
+
+input[type="submit"] {
+  background-color: #ff420e;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  width: 60%; /* Adjust the width as needed */
+  padding: 10px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px;
+  font-weight: bold; /* Make the text bold */
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  text-align: center; /* Center the text within the submit button */
+}
+
+input[type="submit"]:hover {
+  background-color: #333333;
+  color: #f4933b;
+}
