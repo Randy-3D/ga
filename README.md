@@ -1,2 +1,2 @@
-# ga
-Final Project - Power Planet
+# GA
+Final Project - Power Planet Gym
